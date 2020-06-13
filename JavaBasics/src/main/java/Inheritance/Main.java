@@ -18,7 +18,7 @@ public class Main {
 //		System.out.println(p1.equals(p3));	//Print true since both the references are pointing to the same object
 //		System.out.println(p1.equals(p4));
 		
-		Map<Person, Integer> person = new HashMap<>();
+		Map<Person, Integer> person = new HashMap();
 		
 		person.put(p1, 10);
 		person.put(p4, 11);
